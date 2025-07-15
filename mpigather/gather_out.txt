@@ -1,0 +1,34 @@
+Hops from 0 to 2 = 1
+Hops from 0 to 1 = 0
+Hops from 0 to 1 = 0
+Hops from 1 to 0 = 0
+Hops from 1 to 3 = 1
+Hops from 2 to 3 = 0
+Hops from 2 to 3 = 0
+Hops from 0 to 2 = 1
+Hops from 3 to 2 = 0
+Hops from 3 to 1 = 3
+Hops from 3 to 1 = 3
+Hops from 2 to 0 = 3
+Hops from 2 to 0 = 3
+Hops from 1 to 3 = 1
+Hops from 1 to 0 = 0
+Hops from 0 to 2 = 1
+Hops from 0 to 1 = 0
+Hops from 3 to 2 = 0
+Hops from 1 to 0 = 0
+Hops from 1 to 0 = 0
+Hops from 2 to 3 = 0
+Hops from 3 to 2 = 0
+Hops from 3 to 2 = 0
+Hops from 2 to 0 = 3
+Hops from 2 to 1 = 3
+Hops from 2 to 0 = 3
+Hops from 1 to 3 = 1
+Hops from 0 to 3 = 1
+Hops from 0 to 2 = 1
+Cleared finalize
+Hops from 3 to 1 = 3
+Estimated total runtime of           0.00002139 seconds
+SSTMAC   repo:   a0d2303306ecc298de2c6c2ccee063293f42aca5
+SST/macro ran for       0.0075 seconds
