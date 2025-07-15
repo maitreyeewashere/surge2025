@@ -3,7 +3,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from io import StringIO
 
-# Data
 data = """
 nproc,shape,runtime,avghops
 32,2x4x4,44.05,2.09
@@ -20,18 +19,13 @@ nproc,shape,runtime,avghops
 256,16x4x4,80.67,5.73
 """
 
-# Load data into a DataFrame
 df = pd.read_csv(StringIO(data))
 
-# Set plot style and font scale
 sns.set(style="whitegrid", palette="Set3")
-sns.set_context("poster")  # Options: paper, notebook, talk, poster
+sns.set_context("poster")
 
-# Plot runtime only
 plt.figure(figsize=(14, 6))
 bar_plot = sns.barplot(data=df, x="shape", y="runtime", hue="nproc")
-
-# Customize font sizes
 plt.title("Runtime for Torus Shape vs Number of Processes", fontsize=26)
 plt.xlabel("Torus Shape", fontsize=30)
 plt.ylabel("Runtime (μs)", fontsize=30)
